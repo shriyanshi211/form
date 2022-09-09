@@ -3,7 +3,7 @@ import "./App.css";
 import FormInput from "./components/FormInput";
 import Axios from 'axios';
 
-
+// app
 const App = () => {
   const url='https://collegeranker-query-default-rtdb.firebaseio.com/userQueryrecords.json'
   const [isSubmit, setIsSubmit] = useState(false);
